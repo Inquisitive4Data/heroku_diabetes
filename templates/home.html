@@ -1,0 +1,25 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> Check if you are a diabetic! </h1><br>
+        <img src='static\diabetes.jpg' alt="diabetes" width="300">
+        <form method="POST", action="{{url_for('home')}}">
+           <b>  Pregnancies    :  <input type="text", name='a', placeholder=" "> <br><br>
+            PlasmaGlucose    :  <input type="text", name='b', placeholder=" "> <br><br>
+            DiaBloodPressure :  <input type="text", name='c', placeholder=" "> <br><br>
+            TricepsThickness :  <input type="text", name='d', placeholder=" "> <br><br>
+            Serum Insulin     :  <input type="text", name='e', placeholder=""> <br><br>
+            BodyMassIndex:  <input type="text", name='f', placeholder=""> <br><br>
+            DiabetesPedigree   :  <input type="text", name='g', placeholder=""> <br><br>
+            Age (in years): <input type="text", name='h', placeholder=""> <br><br><br></b>
+            <input type="submit" , value='See Result' >
+        </form>
+
+       
+        
+    </center>
+
+    </body>
+</html>
